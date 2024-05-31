@@ -48,11 +48,7 @@ def save_data_entry():
 main = tk.Tk()
 main.title("Registration Form")
 
-<<<<<<< HEAD
-mainframe = Frame(main, width=1200, height=1500, bg='blue')
-=======
-mainframe = Frame(main, width=1200, height=1500, bg='orange')
->>>>>>> 8cd49cd54d6b5d9ac88df90b75527788b52b3b95
+mainframe = Frame(main, width=1200, height=1500, bg='white')
 mainframe.grid(row=0, column=0, rowspan=20, columnspan=4)
 
 frame = Frame(mainframe, width=1000, height=300, bg='light grey')
